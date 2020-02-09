@@ -1,0 +1,11 @@
+framework module NetworkHandler {
+  umbrella header "NetworkHandler.h"
+
+  export *
+  module * { export * }
+}
+
+module NetworkHandler.Swift {
+    header "NetworkHandler-Swift.h"
+    requires objc
+}

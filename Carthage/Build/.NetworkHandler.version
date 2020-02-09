@@ -1,0 +1,23 @@
+{
+  "Mac" : [
+    {
+      "name" : "NetworkHandler",
+      "hash" : "52d12cd78b7bdde234484c13996417b69f89c9dc04dec9116b60e8aec85ddfbf",
+      "swiftToolchainVersion" : "5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+    }
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "0.9.4",
+  "iOS" : [
+    {
+      "name" : "NetworkHandler",
+      "hash" : "e254a264773bc1952775e1918e0802f8e051ffd0bbfd419debae6ac177c8567b",
+      "swiftToolchainVersion" : "5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+    }
+  ]
+}

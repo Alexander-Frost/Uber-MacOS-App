@@ -1,0 +1,4 @@
+framework module NetworkHandler {
+  header "NetworkHandler-Swift.h"
+  requires objc
+}

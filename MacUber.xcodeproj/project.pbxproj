@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		332235DD2353C114009CC623 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332235DC2353C114009CC623 /* AppDelegate.swift */; };
+		332235DF2353C114009CC623 /* PopOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332235DE2353C114009CC623 /* PopOutViewController.swift */; };
+		332235E12353C115009CC623 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 332235E02353C115009CC623 /* Assets.xcassets */; };
+		332235E42353C115009CC623 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 332235E22353C115009CC623 /* Main.storyboard */; };
+		334AA6172353D15900C3E2A2 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 334AA6162353D15900C3E2A2 /* Cartfile */; };
+		334AA61D2353D65700C3E2A2 /* UberLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334AA61C2353D65700C3E2A2 /* UberLoader.swift */; };
+		334AA6202353D68700C3E2A2 /* OAuth2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334AA61F2353D68700C3E2A2 /* OAuth2.framework */; };
+		334AA6212353D68700C3E2A2 /* OAuth2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 334AA61F2353D68700C3E2A2 /* OAuth2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		334AA6252353D6B800C3E2A2 /* OAuth2.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 334AA6242353D6B800C3E2A2 /* OAuth2.framework.dSYM */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		334AA6222353D68700C3E2A2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				334AA6212353D68700C3E2A2 /* OAuth2.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		334AA6232353D69A00C3E2A2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				334AA6252353D6B800C3E2A2 /* OAuth2.framework.dSYM in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		332235D92353C114009CC623 /* MacUber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacUber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		332235DC2353C114009CC623 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		332235DE2353C114009CC623 /* PopOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOutViewController.swift; sourceTree = "<group>"; };
+		332235E02353C115009CC623 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		332235E32353C115009CC623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		332235E52353C115009CC623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		332235E62353C115009CC623 /* MacOobur.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacOobur.entitlements; sourceTree = "<group>"; };
+		334AA6162353D15900C3E2A2 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		334AA61C2353D65700C3E2A2 /* UberLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberLoader.swift; sourceTree = "<group>"; };
+		334AA61F2353D68700C3E2A2 /* OAuth2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuth2.framework; path = Carthage/Build/Mac/OAuth2.framework; sourceTree = "<group>"; };
+		334AA6242353D6B800C3E2A2 /* OAuth2.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = OAuth2.framework.dSYM; path = Carthage/Build/Mac/OAuth2.framework.dSYM; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		332235D62353C114009CC623 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334AA6202353D68700C3E2A2 /* OAuth2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		332235D02353C114009CC623 = {
+			isa = PBXGroup;
+			children = (
+				334AA6162353D15900C3E2A2 /* Cartfile */,
+				332235DB2353C114009CC623 /* MacOobur */,
+				332235DA2353C114009CC623 /* Products */,
+				334AA61E2353D68700C3E2A2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		332235DA2353C114009CC623 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				332235D92353C114009CC623 /* MacUber.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		332235DB2353C114009CC623 /* MacOobur */ = {
+			isa = PBXGroup;
+			children = (
+				332235DC2353C114009CC623 /* AppDelegate.swift */,
+				332235DE2353C114009CC623 /* PopOutViewController.swift */,
+				334AA61C2353D65700C3E2A2 /* UberLoader.swift */,
+				332235E02353C115009CC623 /* Assets.xcassets */,
+				332235E22353C115009CC623 /* Main.storyboard */,
+				332235E52353C115009CC623 /* Info.plist */,
+				332235E62353C115009CC623 /* MacOobur.entitlements */,
+			);
+			path = MacOobur;
+			sourceTree = "<group>";
+		};
+		334AA61E2353D68700C3E2A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				334AA6242353D6B800C3E2A2 /* OAuth2.framework.dSYM */,
+				334AA61F2353D68700C3E2A2 /* OAuth2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		332235D82353C114009CC623 /* MacUber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 332235E92353C115009CC623 /* Build configuration list for PBXNativeTarget "MacUber" */;
+			buildPhases = (
+				332235D52353C114009CC623 /* Sources */,
+				332235D62353C114009CC623 /* Frameworks */,
+				332235D72353C114009CC623 /* Resources */,
+				334AA6222353D68700C3E2A2 /* Embed Frameworks */,
+				334AA6232353D69A00C3E2A2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacUber;
+			productName = MacOobur;
+			productReference = 332235D92353C114009CC623 /* MacUber.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		332235D12353C114009CC623 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = AlexMata;
+				TargetAttributes = {
+					332235D82353C114009CC623 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 332235D42353C114009CC623 /* Build configuration list for PBXProject "MacUber" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 332235D02353C114009CC623;
+			productRefGroup = 332235DA2353C114009CC623 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				332235D82353C114009CC623 /* MacUber */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		332235D72353C114009CC623 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334AA6172353D15900C3E2A2 /* Cartfile in Resources */,
+				332235E12353C115009CC623 /* Assets.xcassets in Resources */,
+				332235E42353C115009CC623 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		332235D52353C114009CC623 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334AA61D2353D65700C3E2A2 /* UberLoader.swift in Sources */,
+				332235DF2353C114009CC623 /* PopOutViewController.swift in Sources */,
+				332235DD2353C114009CC623 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		332235E22353C115009CC623 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				332235E32353C115009CC623 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		332235E72353C115009CC623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		332235E82353C115009CC623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		332235EA2353C115009CC623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MacOobur/MacOobur.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = MacOobur/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Weekend.MacUber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		332235EB2353C115009CC623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MacOobur/MacOobur.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = MacOobur/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Weekend.MacUber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		332235D42353C114009CC623 /* Build configuration list for PBXProject "MacUber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				332235E72353C115009CC623 /* Debug */,
+				332235E82353C115009CC623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		332235E92353C115009CC623 /* Build configuration list for PBXNativeTarget "MacUber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				332235EA2353C115009CC623 /* Debug */,
+				332235EB2353C115009CC623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 332235D12353C114009CC623 /* Project object */;
+}
